@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BCozvRWwL9oyP1Iv1SmXC2UKeEOTFKfhXWv50LjaWE8m1tK2/Jra1FSwK+5CeTzcd8l5vTlr4vindHR7+TpFvA==",
+  "success": true,
+  "projectFilePath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\HospiMascota\\hosvet_loscuatro\\HosVet.App\\HosVeT.App.Dominio\\HosVeT.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\estef\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\estef\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
