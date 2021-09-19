@@ -3,10 +3,9 @@ using System.Collections.Generic;
 
 namespace HosVet.App.Dominio
 {
-  public class SugerenciaCuidado{
-    /// <summary>Class <c>SugerenciaCuidado</c>
-       /// Modela las sugerencias de cuidado de la Mascota
-    /// </summary>   
+ /// <summary>Class <c>SugerenciaCuidado</c>
+     /// Modela las sugerencias de cuidado de la Mascota
+/// </summary>       
     public class SugerenciaCuidado 
     {
         // Identificador único de cada SugerenciaCuidado
@@ -17,4 +16,3 @@ namespace HosVet.App.Dominio
         public string Descripcion {get;set;}
     }
   }
-}

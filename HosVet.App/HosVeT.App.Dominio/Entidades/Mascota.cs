@@ -8,23 +8,23 @@ namespace HosVet.App.Dominio
     {
         
     // Número que identifica a la mascota
-    public int id {get;set}
+    public int id {get;set;}
     // Nombre de la mascota
-    public string Nombre {get;set}
+    public string Nombre {get;set;}
     // Lugar de residencia de la mascota     
-    public string Direccion {get;set}
+    public string Direccion {get;set;}
     // Ciudad de residencia de la mascota
-    public string Ciudad {get;set}
+    public string Ciudad {get;set;}
     /// Coordenada de la dirección de la mascota
-    public int Latitud {get;set}
+    public int Latitud {get;set;}
     // Coordenada de la dirección de la mascota
-    public int Longitud {get;set}
+    public int Longitud {get;set;}
     // Indica que tipo de mascota es, Un Gato o Perro
-    public string TipoMascota {get;set}
+    public string TipoMascota {get;set;}
     // Indica a que raza pertenece el animal doméstico
-    public string Raza {get;set}
+    public string Raza {get;set;}
     // Peso de la mascota
-    public int Peso {get;set}
+    public int Peso {get;set;}
     
     } 
 }
