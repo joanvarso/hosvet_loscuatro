@@ -5,7 +5,7 @@ namespace HosVet.App.Dominio
     /// Modela una Mascota que esta en atencion hospitalaria
 /// </summary> 
     public class Mascota
-    { 
+    { ///esto es una prueba
         
     // Número que identifica a la mascota
     public int id {get;set;}
