@@ -8,7 +8,7 @@ namespace HosVet.App.Dominio
     { 
         
     // Número que identifica a la mascota
-    public int id {get;set;}
+    public int Id {get;set;}
     // Nombre de la mascota
     public string Nombre {get;set;}
     // Lugar de residencia de la mascota     
