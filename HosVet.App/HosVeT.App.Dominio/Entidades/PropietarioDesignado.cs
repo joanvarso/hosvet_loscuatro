@@ -4,7 +4,7 @@ namespace HosVet.App.Dominio
 /// <summary>Class <c>Propietario</c>
     /// Modela una PropietarioDesignado que esta a cargo de la Mascota
 /// </summary> 
-    public class PropietarioDesignado
+    public class PropietarioDesignado : Persona
     {
         
     // Correo que identifica al propietario.

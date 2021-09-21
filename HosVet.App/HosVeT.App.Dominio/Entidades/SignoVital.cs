@@ -4,7 +4,7 @@ namespace HosVet.App.Dominio
 /// <summary>Class <c>SignoVital</c>
     /// Modela un SignoVital que esta asociado con la Mascota
 /// </summary> 
-    public class SignoVital
+    public class SignoVital 
     {
         
     /// Id que identifica la toma del SignoVital
