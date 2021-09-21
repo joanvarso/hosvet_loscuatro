@@ -1,0 +1,9 @@
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\bin\Debug\netstandard2.0\HosVeT.App.Dominio.deps.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\bin\Debug\netstandard2.0\HosVeT.App.Dominio.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\bin\Debug\netstandard2.0\HosVeT.App.Dominio.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.csproj.AssemblyReference.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.AssemblyInfoInputs.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.AssemblyInfo.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.pdb
