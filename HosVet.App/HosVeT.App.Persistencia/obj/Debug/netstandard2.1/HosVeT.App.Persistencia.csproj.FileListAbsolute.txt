@@ -2,3 +2,11 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.AssemblyInfoInputs.cache
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.AssemblyInfo.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Persistencia.deps.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Persistencia.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Persistencia.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Dominio.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Dominio.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.csproj.CopyComplete
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.pdb

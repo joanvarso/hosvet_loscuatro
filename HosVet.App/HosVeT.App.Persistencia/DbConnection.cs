@@ -6,17 +6,17 @@ namespace HosVet.App.Persistencia
   /// <summary> Class<c>AppContext <c>
       /// Es el contexto de datos del proyecto, da la conexión a la base de datos y su mapeo
   /// </summary>
-    public class AppContext : DbContext
+    public class DbConnection : DbContext
 
     {
 
       ///Mapeo de las entidades de la capa de dominio(HosVet.App.Dominio) en la capa de persistencia (HosVet.App.Persistencia)
       //Relaciona una entidad Persona con una tabla llamada Personas en la base de datos del proyecto 
       public DbSet<Persona> Personas { get; set; }
-      //Relaciona una entidad Medico con una tabla llamada Medicos en la base de datos del proyecto
-      public DbSet<Medico> Medicos { get; set; }
-      //Relaciona una entidad Enfermera con una tabla llamada Enfermeras en la base de datos del proyecto
-      public DbSet<Enfermera> Enfermeras { get; set; }
+      //Relaciona una entidad Medico Veterinario con una tabla llamada MedicoVeterinarios en la base de datos del proyecto
+      public DbSet<MedicoVeterinario> MedicoVeterinarios { get; set; }
+      //Relaciona una entidad Auxiliar Veterinario con una tabla llamada AuxiliarVeterinarios en la base de datos del proyecto
+      public DbSet<AuxiliarVeterinario> AuxiliarVeterinarios { get; set; }
       //Relaciona una entidad PropietarioDesignado con una tabla llamada PropietarioDesignados en la base de datos del proyecto
       public DbSet<PropietarioDesignado> PropietarioDesignados { get; set; }
       //Relaciona una entidad Mascota con la tabla Mascotas en la base de datos del proyecto
