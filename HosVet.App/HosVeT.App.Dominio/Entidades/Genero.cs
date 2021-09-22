@@ -7,5 +7,10 @@ namespace HosVet.App.Dominio
     {
         Masculino,
         Femenino,
+        Bisexual,
+        Intersexual,
+        Pansexual,
+        Transexual
+        
     }
 }
