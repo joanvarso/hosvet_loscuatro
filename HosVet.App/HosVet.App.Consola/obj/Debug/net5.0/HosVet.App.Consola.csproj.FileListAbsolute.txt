@@ -66,3 +66,4 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Consola\obj\Debug\net5.0\ref\HosVet.App.Consola.dll
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Consola\obj\Debug\net5.0\HosVet.App.Consola.pdb
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Consola\obj\Debug\net5.0\HosVet.App.Consola.genruntimeconfig.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\hosvet_loscuatro\HosVet.App\HosVet.App.Consola\obj\Debug\net5.0\HosVet.App.Consola.pdb
