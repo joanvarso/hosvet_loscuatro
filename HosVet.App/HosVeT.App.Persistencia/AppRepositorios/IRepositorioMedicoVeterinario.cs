@@ -11,6 +11,6 @@ namespace HosVet.App.Persistencia
        MedicoVeterinario AgregarMedico(MedicoVeterinario medicoVeterinario);
        MedicoVeterinario ActualizarMedico(MedicoVeterinario medicoVeterinario);
        void BorrarMedico(int idMedicoVeterinario);
-       MedicoVeterinario GetMedico(int idMedicoVeterinario);       
+       MedicoVeterinario ObtenerMedico(int idMedicoVeterinario);       
     }
 }

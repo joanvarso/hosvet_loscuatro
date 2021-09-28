@@ -46,7 +46,7 @@ namespace HosVet.App.Persistencia
             _dbConnection.MedicoVeterinarios.Remove(medicoVeterinarioEncontrado);
             _dbConnection.SaveChanges();
         }
-        public MedicoVeterinario GetMedico(int idMedicoVeterinario)
+        public MedicoVeterinario ObtenerMedico(int idMedicoVeterinario)
         {
             return _dbConnection.MedicoVeterinarios.FirstOrDefault(p => p.Id == idMedicoVeterinario);
         }
