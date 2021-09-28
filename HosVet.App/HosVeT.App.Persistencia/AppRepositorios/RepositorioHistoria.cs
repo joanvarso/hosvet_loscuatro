@@ -31,7 +31,7 @@ namespace HosVet.App.Persistencia
          Historia IRepositorioHistoria.ActualizarHistoria (Historia historia){
 
            //Buscando historia a actualizar
-           var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == historia.id);
+           var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == historia.Id);
            
            if(historiaEncontrada != null){
 
@@ -47,8 +47,8 @@ namespace HosVet.App.Persistencia
          void IRepositorioHistoria.BorrarHistoria (int idHistoria){
 
            //Buscando historia a eliminar
-           var historiaEncontrada = _dbConnection.Historias.FirstOrfDefault(h => h.Id == idHistoria);
-           if(pacienteEncontrado == null)
+           var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == idHistoria);
+           if(historiaEncontrada == null)
            return;
            //eliminando historia encontrada
            _dbConnection.Historias.Remove(historiaEncontrada);
@@ -59,7 +59,7 @@ namespace HosVet.App.Persistencia
          Historia IRepositorioHistoria.ObtenerHistoria (int idHistoria){
 
            //Buscando historia
-           var historiaEncontrada = _dbConnection.Historias.FirstOrfDefault(h => h.Id == idHistoria);
+           var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == idHistoria);
            //retornando la historia encontrada
            return historiaEncontrada;
 
