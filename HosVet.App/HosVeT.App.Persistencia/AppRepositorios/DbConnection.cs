@@ -6,6 +6,7 @@ namespace HosVet.App.Persistencia
   /// <summary> Class<c>AppContext <c>
       /// Es el contexto de datos del proyecto, da la conexión a la base de datos y su mapeo
   /// </summary>
+  
     public class DbConnection : DbContext
 
     {

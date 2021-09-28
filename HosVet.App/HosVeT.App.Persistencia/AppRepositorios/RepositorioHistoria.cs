@@ -26,7 +26,7 @@ namespace HosVeT.App.Persistencia
            //Guardar cambios en la base de datos
            _dbConnection.SaveChanges();
            //retornar Historia añadida
-           return historiaAdicionado.Entity;
+           return historiaAdicionada.Entity;
 
          }
          Historia IRepositorioHistoria.ActualizarHistoria (Historia historia){
