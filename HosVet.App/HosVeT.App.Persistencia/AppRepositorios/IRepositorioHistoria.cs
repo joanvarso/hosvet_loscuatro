@@ -4,7 +4,7 @@ using System.Linq;
 using HosVet.App.Dominio;
 
 
-namespace HosVeT.App.Persistencia
+namespace HosVet.App.Persistencia
 {
     public interface IRepositorioHistoria
     {

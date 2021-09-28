@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HosVet.App.Dominio;
 
-namespace HosVeT.App.Persistencia
+namespace HosVet.App.Persistencia
 {
     public class RepositorioHistoria : IRepositorioHistoria
     {    
