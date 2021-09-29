@@ -34,13 +34,14 @@ namespace HosVet.App.Persistencia
            var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == historia.Id);
            
            if(historiaEncontrada != null){
-
+             //actualizando atributos de la entidad
              historiaEncontrada.Diagnostico = historia.Diagnostico;
              historiaEncontrada.Entorno = historia.Entorno;
              historiaEncontrada.Sugerencias = historia.Sugerencias;
              _dbConnection.SaveChanges();
 
            }
+           //retornando Historia actualizada
            return historiaEncontrada;
 
          }
