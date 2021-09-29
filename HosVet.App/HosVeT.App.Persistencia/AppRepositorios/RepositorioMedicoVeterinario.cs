@@ -53,7 +53,7 @@ namespace HosVet.App.Persistencia
         }
         public MedicoVeterinario ObtenerMedico(int idMedicoVeterinario)
         {
-            //buscar y retornar MedicoVeterinario
+            //buscar y retornar MedicoVeterinario 
             return _dbConnection.MedicoVeterinarios.FirstOrDefault(p => p.Id == idMedicoVeterinario);
         }
         public IEnumerable<MedicoVeterinario> ObtenerTodasLosMedicos()
