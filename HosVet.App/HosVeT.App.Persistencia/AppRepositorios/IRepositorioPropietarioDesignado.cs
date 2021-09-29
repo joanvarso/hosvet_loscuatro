@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HosVet.App.Dominio;
 
-namespace HosVeT.App.Persistencia.AppRepositorios
+namespace HosVet.App.Persistencia
 {
     public interface IRepositorioPropietarioDesignado
     {
@@ -12,7 +12,7 @@ namespace HosVeT.App.Persistencia.AppRepositorios
          PropietarioDesignado AgregarPropietarioDesignado (PropietarioDesignado propietarioDesignado);
          PropietarioDesignado ActualizarPropietarioDesignado (PropietarioDesignado propietarioDesignado);
          void BorrarPropietarioDesignado (int idPropietarioDesignado);
-         Historia ObtenerPropietarioDesignado (int idPropietarioDesignado);
+         PropietarioDesignado ObtenerPropietarioDesignado (int idPropietarioDesignado);
 
     }
 }
