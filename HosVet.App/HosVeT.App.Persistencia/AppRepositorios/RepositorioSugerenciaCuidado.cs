@@ -18,7 +18,7 @@ namespace HosVet.App.Persistencia
            return _dbConnection.SugerenciaCuidado;
            
          }
-         SugerenciaCuidado IRepositorioSugerenciaCuidado. AgregarSugerenciaCuidado (SugerenciaCuidado sugerenciaCuidado){
+         SugerenciaCuidado IRepositorioSugerenciaCuidado.AgregarSugerenciaCuidado (SugerenciaCuidado sugerenciaCuidado){
 
            //Obtener SugerenciaCuidado añadidos
            var sugerenciaCuidadoAdicionado = _dbConnection.SugerenciaCuidado.Add(sugerenciaCuidado);
@@ -28,7 +28,7 @@ namespace HosVet.App.Persistencia
            return sugerenciaCuidadoAdicionado.Entity;
 
          }
-         SugerenciaCuidado IRepositorioSugerenciaCuidado.SugerenciaCuidado(SugerenciaCuidado SugerenciaCuidado){
+         SugerenciaCuidado IRepositorioSugerenciaCuidado.ActualizarSugerenciaCuidado(SugerenciaCuidado SugerenciaCuidado){
 
            //Buscando SugerenciaCuidado a actualizar
            var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == SugerenciaCuidado.Id);
