@@ -30,15 +30,15 @@ namespace HosVet.App.Persistencia
 
          }
 
-         Mascota IRepositorioMascota.Mascota(Mascota mascota){
+         Mascota IRepositorioMascota.ActualizarMascota(Mascota mascota){
 
            //Buscando Mascota a actualizar
            var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == Mascota.Id);
            
-           if(signoVitalEncontrado != null){
+           if(mascotaEncontrada != null){
 
-             SugerenciaCuidadoEncontrada.FechaHora = SugerenciaCuidado.FechaHora;
-             SugerenciaCuidadoEncontrada.Descripcion = SugerenciaCuidado.Descripcion;
+             mascotaEncontrada.FechaHora = SugerenciaCuidado.FechaHora;
+             mascotaEncontrada.Descripcion = SugerenciaCuidado.Descripcion;
              _dbConnection.SaveChanges();
 
            }
