@@ -33,7 +33,7 @@ namespace HosVet.App.Persistencia
            //Buscando SugerenciaCuidado a actualizar
            var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == SugerenciaCuidado.Id);
            
-           if(signoVitalEncontrado != null){
+           if(SugerenciaCuidadoEncontrada != null){
 
              SugerenciaCuidadoEncontrada.FechaHora = SugerenciaCuidado.FechaHora;
              SugerenciaCuidadoEncontrada.Descripcion = SugerenciaCuidado.Descripcion;
