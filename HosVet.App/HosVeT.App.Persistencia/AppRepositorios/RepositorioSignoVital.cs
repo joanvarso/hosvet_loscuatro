@@ -18,7 +18,7 @@ namespace HosVet.App.Persistencia
            return _dbConnection.SignosVitales;
            
          }
-         Signovital IRepositorioSignoVital. AgregarSignoVital (SignoVital signoVital){
+         Signovital IRepositorioSignoVital.AgregarSignoVital (SignoVital signoVital){
 
            //Obtener SignoVital añadidos
            var signoVitalAdicionado = _dbConnection.SignoVital.Add(signoVital);
