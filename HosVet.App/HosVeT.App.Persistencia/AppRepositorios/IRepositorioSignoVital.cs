@@ -11,7 +11,7 @@ namespace HosVet.App.Persistencia
          
          IEnumerable<SignoVital> ObtenerTodosLosSignoVital();
          Signovital AgregarSignoVital (SignoVital signoVital);
-         Signovital ActualizarSignoVital (SignoVital SignoVital);
+         Signovital ActualizarSignoVital (SignoVital signoVital);
          void BorrarSignoVital (int idSignoVital);
          Signovital ObtenerSignoVital (int idSignoVital);
 
