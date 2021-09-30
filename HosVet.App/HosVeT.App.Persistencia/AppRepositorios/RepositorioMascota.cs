@@ -19,48 +19,54 @@ namespace HosVet.App.Persistencia
            
          }
 
-         Mascota IRepositorioMascota.AgregarMascota (Mascota mascota){
+         Mascota IRepositorioMascota.AgregarMascota(Mascota mascota){
 
            //Obtener Mascota añadidos
-           var mascotaAdicionado = _dbConnection.Mascota.Add(mascota);
+           var mascotaAdicionada = _dbConnection.Mascota.Add(mascota);
            //Guardar cambios en la base de datos
            _dbConnection.SaveChanges();
-           //retornar Mascota añadido
-           return mascotaAdicionado.Entity;
+           //retornar Mascota añadida
+           return mascotaAdicionada.Entity;
 
          }
 
          Mascota IRepositorioMascota.ActualizarMascota(Mascota mascota){
 
            //Buscando Mascota a actualizar
-           var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == Mascota.Id);
+           var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == mascota.Id);
            
            if(mascotaEncontrada != null){
 
-             mascotaEncontrada.FechaHora = SugerenciaCuidado.FechaHora;
-             mascotaEncontrada.Descripcion = SugerenciaCuidado.Descripcion;
+             mascotaEncontrada.Nombre = mascota.Nombre;
+             mascotaEncontrada.Direccion = mascota.Direccion;
+             mascotaEncontrada.Ciudad = mascota.Ciudad;
+             mascotaEncontrada.Latitud = mascota.Latitud;
+             mascotaEncontrada.Longitud = mascota.Longitud;
+             mascotaEncontrada.TipoMascota = mascota.TipoMascota;
+             mascotaEncontrada.Raza = mascota.Raza;
+             mascotaEncontrada.Peso = mascota.Peso;
              _dbConnection.SaveChanges();
 
            }
-           return SugerenciaCuidadoEncontrada;
+           return mascotaEncontrada;
 
          }
-         void IRepositorioMascota.BorrarSugerenciaCuidado (int idSugerenciaCuidado){
+         void IRepositorioMascota.BorrarMascota(int idMascota){
 
-           //Buscando SugerenciaCuidado a eliminar
-           var sugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
-           if(sugerenciaCuidadoEncontrada == null)
+           //Buscando Mascota a eliminar
+           var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == idMascota);
+           if(mascotaEncontrada == null)
            return;
-           //eliminando SugerenciaCuidado encontrada
-           _dbConnection.SugerenciaCuidado.Remove(sugerenciaCuidadoEncontrada);
+           //eliminando Mascota encontrada
+           _dbConnection.Mascota.Remove(mascotaEncontrada);
            //guardando cambios en la base de datos
            _dbConnection.SaveChanges();
 
          }
-         SugerenciaCuidado IRepositorioSugerenciaCuidado.ObtenerSugerenciaCuidado (int idSugerenciaCuidado){
+         Mascota IRepositorioMascota.ObtenerMascota(int idMascota){
 
-           //Buscando SugerenciaCuidado
-           return _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
+           //Buscando Mascota
+           return _dbConnection.Mascota.FirstOrDefault(m => m.Id == idMascota);
         
          }
 
