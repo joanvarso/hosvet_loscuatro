@@ -9,7 +9,7 @@ namespace HosVet.App.Persistencia
     public interface IRepositorioSugerenciaCuidado
     {
          
-         IEnumerable<SugerenciaCuidado> ObtenerTodosLosSugerenciaCuidado();
+         IEnumerable<SugerenciaCuidado> ObtenerTodasLasSugerenciaCuidado();
          SugerenciaCuidado AgregarSugerenciaCuidado (SugerenciaCuidado sugerenciaCuidado);
          SugerenciaCuidado ActualizarSugerenciaCuidado (SugerenciaCuidado sugerenciaCuidado);
          void BorrarSugerenciaCuidado (int idSugerenciaCuidado);
