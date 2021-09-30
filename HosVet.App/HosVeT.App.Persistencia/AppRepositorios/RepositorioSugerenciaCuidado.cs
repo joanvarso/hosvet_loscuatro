@@ -18,48 +18,47 @@ namespace HosVet.App.Persistencia
            return _dbConnection.SugerenciaCuidado;
            
          }
-         SugerenciaCuidado IRepositorioSugerenciaCuidado. AgregarSugerenciaCuidado (SignoVital signoVital){
+         SugerenciaCuidado IRepositorioSugerenciaCuidado. AgregarSugerenciaCuidado (SugerenciaCuidado sugerenciaCuidado){
 
-           //Obtener SignoVital añadidos
-           var signoVitalAdicionado = _dbConnection.SignoVital.Add(signoVital);
+           //Obtener SugerenciaCuidado añadidos
+           var sugerenciaCuidadoAdicionado = _dbConnection.SugerenciaCuidado.Add(sugerenciaCuidado);
            //Guardar cambios en la base de datos
            _dbConnection.SaveChanges();
-           //retornar SignoVital añadido
-           return SignoVitalAdicionado.Entity;
+           //retornar SugerenciaCuidado añadido
+           return sugerenciaCuidadoAdicionado.Entity;
 
          }
-         SignoVital IRepositorioSugerenciaCuidado.ActualizarSignoVital(SignoVital signoVital){
+         SugerenciaCuidado IRepositorioSugerenciaCuidado.SugerenciaCuidado(SugerenciaCuidado SugerenciaCuidado){
 
-           //Buscando SignoVital a actualizar
-           var signoVitalEncontrado = _dbConnection.SignoVital.FirstOrDefault(sv => sv.Id == SignoVital.Id);
+           //Buscando SugerenciaCuidado a actualizar
+           var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == SugerenciaCuidado.Id);
            
            if(signoVitalEncontrado != null){
 
-             signoVitalEncontrado.FechaHora = signoVital.FechaHora;
-             signoVitalEncontrado.TipoSigno = signoVital.TipoSigno;
-             signoVitalEncontrado.Valor = signoVital.Valor;
+             SugerenciaCuidadoEncontrada.FechaHora = SugerenciaCuidado.FechaHora;
+             SugerenciaCuidadoEncontrada.Descripcion = SugerenciaCuidado.Descripcion;
              _dbConnection.SaveChanges();
 
            }
-           return signoVitalEncontrado;
+           return SugerenciaCuidadoEncontrada;
 
          }
-         void IRepositorioSugerenciaCuidado.BorrarSignoVital (int idSignoVital){
+         void IRepositorioSugerenciaCuidado.BorrarSugerenciaCuidado (int idSugerenciaCuidado){
 
-           //Buscando SignoVital a eliminar
-           var signoVitalEncontrado = _dbConnection.SignoVital.FirstOrDefault(sv => sv.Id == idSignoVital);
-           if(signoVitalEncontrado == null)
+           //Buscando SugerenciaCuidado a eliminar
+           var sugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
+           if(sugerenciaCuidadoEncontrada == null)
            return;
-           //eliminando SignoVital encontrada
-           _dbConnection.SignoVital.Remove(signoVitalEncontrado);
+           //eliminando SugerenciaCuidado encontrada
+           _dbConnection.SugerenciaCuidado.Remove(sugerenciaCuidadoEncontrada);
            //guardando cambios en la base de datos
            _dbConnection.SaveChanges();
 
          }
-         SignoVital IRepositorioSugerenciaCuidado.ObtenerSignoVital (int idSignoVital){
+         SugerenciaCuidado IRepositorioSugerenciaCuidado.ObtenerSugerenciaCuidado (int idSugerenciaCuidado){
 
-           //Buscando SignoVital
-           return _dbConnection.SignoVital.FirstOrDefault(sv => sv.Id == idSignoVital);
+           //Buscando SugerenciaCuidado
+           return _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
         
          }
 
