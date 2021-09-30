@@ -28,10 +28,10 @@ namespace HosVet.App.Persistencia
            return sugerenciaCuidadoAdicionado.Entity;
 
          }
-         SugerenciaCuidado IRepositorioSugerenciaCuidado.ActualizarSugerenciaCuidado(SugerenciaCuidado SugerenciaCuidado){
+         SugerenciaCuidado IRepositorioSugerenciaCuidado.ActualizarSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado){
 
            //Buscando SugerenciaCuidado a actualizar
-           var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == SugerenciaCuidado.Id);
+           var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == sugerenciaCuidado.Id);
            
            if(SugerenciaCuidadoEncontrada != null){
 
