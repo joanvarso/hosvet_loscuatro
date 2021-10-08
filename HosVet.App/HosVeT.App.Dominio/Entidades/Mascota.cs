@@ -1,7 +1,7 @@
 using System;
 namespace HosVet.App.Dominio
 {
-/// <summary>Class <c>Paciente</c>
+/// <summary>Class <c>Mascota</c>
     /// Modela una Mascota que esta en atencion hospitalaria
 /// </summary> 
     public class Mascota
@@ -25,6 +25,8 @@ namespace HosVet.App.Dominio
     public string Raza {get;set;}
     // Peso de la mascota
     public int Peso {get;set;}
+    //Medico asignado 
+    public MedicoVeterinario MedicoVeterinario {get; set;}
     
     } 
 }
