@@ -76,10 +76,12 @@ namespace HosVet.App.Persistencia
            if(mascotaEncontrada != null){
              var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinarios.Min(mv => mv.CantidadPacientes);
              if(medicoVeterinarioEncontrado != null ){
-               mascotaEncontrada.MedicoVeterinario = medicoVeterinarioEncontrado;
+               //mascotaEncontrada.MedicoVeterinario = medicoVeterinarioEncontrado;
+               mascotaEncontrada.MedicoVeterinario = null;
                _dbConnection.SaveChanges();
              }
-             return medicoVeterinarioEncontrado;           
+             //return medicoVeterinarioEncontrado;
+             return null;           
            }
            return null;
            

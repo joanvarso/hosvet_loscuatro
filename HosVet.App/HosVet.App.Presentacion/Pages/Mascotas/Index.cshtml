@@ -1,0 +1,36 @@
+﻿@page
+@model HospiEnCasa.App.Presentacion.Pages.IndexModel
+@{
+}
+<h1>Administrar Registro de Mascotas</h1>
+<h2>Lista de Mascotas</h2>
+<br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Latitud</th>
+      <th scope="col">Longitud</th>
+      <th scope="col">Tipo de Mascota</th>
+      <th scope="col">Raza</th>
+      <th scope="col">Peso</th>
+    </tr>
+  </thead>
+
+  @foreach (var m in @Model.Mascotas)
+  {
+    <tr>
+      <td>@m.Nombre</td>
+      <td>@m.Direccion</td>
+      <td>@m.Ciudad</td>
+      <td>@m.Latitud</td>
+      <td>@m.Longitud</td>
+      <td>@m.TipoMascota</td>
+      <td>@m.Raza</td>
+      <td>@m.Peso</td>
+    </tr>
+  }
+
+</table>
