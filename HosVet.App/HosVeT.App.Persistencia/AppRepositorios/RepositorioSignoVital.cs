@@ -18,20 +18,20 @@ namespace HosVet.App.Persistencia
            return _dbConnection.SignosVitales;
            
          }
-         Signovital IRepositorioSignoVital.AgregarSignoVital (SignoVital signoVital){
+         SignoVital IRepositorioSignoVital.AgregarSignoVital (SignoVital signoVital){
 
            //Obtener SignoVital añadidos
-           var signoVitalAdicionado = _dbConnection.SignoVital.Add(signoVital);
+           var signoVitalAdicionado = _dbConnection.SignosVitales.Add(signoVital);
            //Guardar cambios en la base de datos
            _dbConnection.SaveChanges();
            //retornar SignoVital añadido
-           return SignoVitalAdicionado.Entity;
+           return signoVitalAdicionado.Entity;
 
          }
          SignoVital IRepositorioSignoVital.ActualizarSignoVital(SignoVital signoVital){
 
            //Buscando SignoVital a actualizar
-           var signoVitalEncontrado = _dbConnection.SignoVital.FirstOrDefault(sv => sv.Id == SignoVital.Id);
+           var signoVitalEncontrado = _dbConnection.SignosVitales.FirstOrDefault(sv => sv.Id == signoVital.Id);
            
            if(signoVitalEncontrado != null){
 
@@ -47,11 +47,11 @@ namespace HosVet.App.Persistencia
          void IRepositorioSignoVital.BorrarSignoVital (int idSignoVital){
 
            //Buscando SignoVital a eliminar
-           var signoVitalEncontrado = _dbConnection.SignoVital.FirstOrDefault(sv => sv.Id == idSignoVital);
+           var signoVitalEncontrado = _dbConnection.SignosVitales.FirstOrDefault(sv => sv.Id == idSignoVital);
            if(signoVitalEncontrado == null)
            return;
            //eliminando SignoVital encontrada
-           _dbConnection.SignoVital.Remove(signoVitalEncontrado);
+           _dbConnection.SignosVitales.Remove(signoVitalEncontrado);
            //guardando cambios en la base de datos
            _dbConnection.SaveChanges();
 
@@ -59,7 +59,7 @@ namespace HosVet.App.Persistencia
          SignoVital IRepositorioSignoVital.ObtenerSignoVital (int idSignoVital){
 
            //Buscando SignoVital
-           return _dbConnection.SignoVital.FirstOrDefault(sv => sv.Id == idSignoVital);
+           return _dbConnection.SignosVitales.FirstOrDefault(sv => sv.Id == idSignoVital);
         
          }
 
