@@ -70,11 +70,11 @@ namespace HosVet.App.Persistencia
         
          }
 
-         MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota){
+         MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){
 
-           var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == idMascota);
+           var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == idMascota);
            if(mascotaEncontrada != null){
-             var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinario.Min(mv => mv.CantidadPacientes);
+             var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinarios.Min(mv => mv.CantidadPacientes);
              if(medicoVeterinarioEncontrado != null ){
                mascotaEncontrada.MedicoVeterinario = medicoVeterinarioEncontrado;
                _dbConnection.SaveChanges();
