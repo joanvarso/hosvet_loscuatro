@@ -10,10 +10,10 @@ namespace HosVet.App.Persistencia
     {
          
          IEnumerable<SignoVital> ObtenerTodosLosSignoVital();
-         Signovital AgregarSignoVital (SignoVital signoVital);
-         Signovital ActualizarSignoVital (SignoVital signoVital);
+         SignoVital AgregarSignoVital (SignoVital signoVital);
+         SignoVital ActualizarSignoVital (SignoVital signoVital);
          void BorrarSignoVital (int idSignoVital);
-         Signovital ObtenerSignoVital (int idSignoVital);
+         SignoVital ObtenerSignoVital (int idSignoVital);
 
     }
 }

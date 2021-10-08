@@ -15,14 +15,14 @@ namespace HosVet.App.Persistencia
 
          IEnumerable<Mascota> IRepositorioMascota.ObtenerTodasLasMascota (){
 
-           return _dbConnection.Mascota;
+           return _dbConnection.Mascotas;
            
          }
 
          Mascota IRepositorioMascota.AgregarMascota(Mascota mascota){
 
            //Obtener Mascota añadidos
-           var mascotaAdicionada = _dbConnection.Mascota.Add(mascota);
+           var mascotaAdicionada = _dbConnection.Mascotas.Add(mascota);
            //Guardar cambios en la base de datos
            _dbConnection.SaveChanges();
            //retornar Mascota añadida
@@ -33,7 +33,7 @@ namespace HosVet.App.Persistencia
          Mascota IRepositorioMascota.ActualizarMascota(Mascota mascota){
 
            //Buscando Mascota a actualizar
-           var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == mascota.Id);
+           var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == mascota.Id);
            
            if(mascotaEncontrada != null){
 
@@ -54,11 +54,11 @@ namespace HosVet.App.Persistencia
          void IRepositorioMascota.BorrarMascota(int idMascota){
 
            //Buscando Mascota a eliminar
-           var mascotaEncontrada = _dbConnection.Mascota.FirstOrDefault(m => m.Id == idMascota);
+           var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == idMascota);
            if(mascotaEncontrada == null)
            return;
            //eliminando Mascota encontrada
-           _dbConnection.Mascota.Remove(mascotaEncontrada);
+           _dbConnection.Mascotas.Remove(mascotaEncontrada);
            //guardando cambios en la base de datos
            _dbConnection.SaveChanges();
 
@@ -66,7 +66,7 @@ namespace HosVet.App.Persistencia
          Mascota IRepositorioMascota.ObtenerMascota(int idMascota){
 
            //Buscando Mascota
-           return _dbConnection.Mascota.FirstOrDefault(m => m.Id == idMascota);
+           return _dbConnection.Mascotas.FirstOrDefault(m => m.Id == idMascota);
         
          }
 
