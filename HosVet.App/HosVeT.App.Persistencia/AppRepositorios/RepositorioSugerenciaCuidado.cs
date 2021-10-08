@@ -15,13 +15,13 @@ namespace HosVet.App.Persistencia
 
          IEnumerable<SugerenciaCuidado> IRepositorioSugerenciaCuidado.ObtenerTodasLasSugerenciaCuidado (){
 
-           return _dbConnection.SugerenciaCuidado;
+           return _dbConnection.SugerenciaCuidados;
            
          }
          SugerenciaCuidado IRepositorioSugerenciaCuidado.AgregarSugerenciaCuidado (SugerenciaCuidado sugerenciaCuidado){
 
            //Obtener SugerenciaCuidado añadidos
-           var sugerenciaCuidadoAdicionado = _dbConnection.SugerenciaCuidado.Add(sugerenciaCuidado);
+           var sugerenciaCuidadoAdicionado = _dbConnection.SugerenciaCuidados.Add(sugerenciaCuidado);
            //Guardar cambios en la base de datos
            _dbConnection.SaveChanges();
            //retornar SugerenciaCuidado añadido
@@ -31,12 +31,12 @@ namespace HosVet.App.Persistencia
          SugerenciaCuidado IRepositorioSugerenciaCuidado.ActualizarSugerenciaCuidado(SugerenciaCuidado sugerenciaCuidado){
 
            //Buscando SugerenciaCuidado a actualizar
-           var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == sugerenciaCuidado.Id);
+           var SugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidados.FirstOrDefault(sc => sc.Id == sugerenciaCuidado.Id);
            
            if(SugerenciaCuidadoEncontrada != null){
 
-             SugerenciaCuidadoEncontrada.FechaHora = SugerenciaCuidado.FechaHora;
-             SugerenciaCuidadoEncontrada.Descripcion = SugerenciaCuidado.Descripcion;
+             SugerenciaCuidadoEncontrada.FechaHora = sugerenciaCuidado.FechaHora;
+             SugerenciaCuidadoEncontrada.Descripcion = sugerenciaCuidado.Descripcion;
              _dbConnection.SaveChanges();
 
            }
@@ -46,11 +46,11 @@ namespace HosVet.App.Persistencia
          void IRepositorioSugerenciaCuidado.BorrarSugerenciaCuidado (int idSugerenciaCuidado){
 
            //Buscando SugerenciaCuidado a eliminar
-           var sugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
+           var sugerenciaCuidadoEncontrada = _dbConnection.SugerenciaCuidados.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
            if(sugerenciaCuidadoEncontrada == null)
            return;
            //eliminando SugerenciaCuidado encontrada
-           _dbConnection.SugerenciaCuidado.Remove(sugerenciaCuidadoEncontrada);
+           _dbConnection.SugerenciaCuidados.Remove(sugerenciaCuidadoEncontrada);
            //guardando cambios en la base de datos
            _dbConnection.SaveChanges();
 
@@ -58,7 +58,7 @@ namespace HosVet.App.Persistencia
          SugerenciaCuidado IRepositorioSugerenciaCuidado.ObtenerSugerenciaCuidado (int idSugerenciaCuidado){
 
            //Buscando SugerenciaCuidado
-           return _dbConnection.SugerenciaCuidado.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
+           return _dbConnection.SugerenciaCuidados.FirstOrDefault(sc => sc.Id == idSugerenciaCuidado);
         
          }
 
