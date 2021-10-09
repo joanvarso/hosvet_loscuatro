@@ -7,13 +7,7 @@ namespace HosVet.App.Persistencia
     public class RepositorioAuxiliarVeterinario : IRepositorioAuxiliarVeterinario
     {
         
-        private readonly DbConnection _dbConnection;
-
-        public RepositorioAuxiliarVeterinario (DbConnection _dbConnection){
-          //Conexión a la base de datos
-          _dbConnection = _dbConnection;
-        }
-
+        private readonly DbConnection _dbConnection = new DbConnection();
     AuxiliarVeterinario IRepositorioAuxiliarVeterinario.ActualizarAuxiliarVeterinario(AuxiliarVeterinario auxiliarVeterinario)
     {
       

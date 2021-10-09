@@ -6,12 +6,7 @@ namespace HosVet.App.Persistencia
 {
     public class RepositorioSugerenciaCuidado : IRepositorioSugerenciaCuidado
     {    
-      private readonly DbConnection _dbConnection;  
-      public RepositorioSugerenciaCuidado(DbConnection _dbConnection)
-        {
-          //Conexión a la base de datos
-            _dbConnection = _dbConnection;
-        }
+      private readonly DbConnection _dbConnection = new DbConnection();
 
          IEnumerable<SugerenciaCuidado> IRepositorioSugerenciaCuidado.ObtenerTodasLasSugerenciaCuidado (){
 

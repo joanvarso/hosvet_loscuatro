@@ -6,12 +6,7 @@ namespace HosVet.App.Persistencia
 {
   public class RepositorioPropietarioDesignado : IRepositorioPropietarioDesignado
   {
-      private readonly DbConnection _dbConnection;  
-      public RepositorioPropietarioDesignado(DbConnection _dbConnection)
-        {
-          //Conexión a la base de datos
-            _dbConnection = _dbConnection;
-        }
+      private readonly DbConnection _dbConnection = new DbConnection();
 
 
     PropietarioDesignado IRepositorioPropietarioDesignado.ActualizarPropietarioDesignado(PropietarioDesignado propietarioDesignado)

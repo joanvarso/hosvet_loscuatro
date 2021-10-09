@@ -6,12 +6,7 @@ namespace HosVet.App.Persistencia
 {
     public class RepositorioSignoVital : IRepositorioSignoVital
     {    
-      private readonly DbConnection _dbConnection;  
-      public RepositorioSignoVital(DbConnection _dbConnection)
-        {
-          //Conexión a la base de datos
-            _dbConnection = _dbConnection;
-        }
+      private readonly DbConnection _dbConnection = new DbConnection();
 
          IEnumerable<SignoVital> IRepositorioSignoVital.ObtenerTodosLosSignoVital (){
 

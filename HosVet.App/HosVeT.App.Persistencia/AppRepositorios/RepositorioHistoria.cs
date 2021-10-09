@@ -6,13 +6,7 @@ namespace HosVet.App.Persistencia
 {
     public class RepositorioHistoria : IRepositorioHistoria
     {    
-      private readonly DbConnection _dbConnection;  
-      public RepositorioHistoria(DbConnection _dbConnection)
-        {
-          //Conexión a la base de datos
-            _dbConnection = _dbConnection;
-        }
-
+      private readonly DbConnection _dbConnection = new DbConnection();
          IEnumerable<Historia> IRepositorioHistoria.ObtenerTodasLasHistorias (){
 
            return _dbConnection.Historias;
