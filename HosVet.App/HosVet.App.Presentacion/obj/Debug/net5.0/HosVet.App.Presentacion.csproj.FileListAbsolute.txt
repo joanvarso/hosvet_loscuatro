@@ -71,3 +71,4 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Dominio.pdb
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Persistencia.pdb
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Index.cshtml.g.cs

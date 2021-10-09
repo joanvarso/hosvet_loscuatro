@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using HosVet.App.Dominio;
 using HosVet.App.Persistencia;
 
-namespace HospiEnCasa.App.Presentacion.Pages
+namespace HospiEnCasa.App.Presentacion.Pages.Mascotas
 {
     public class IndexModel : PageModel
     {
