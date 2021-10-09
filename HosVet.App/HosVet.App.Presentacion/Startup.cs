@@ -26,6 +26,7 @@ namespace HosVet.App.Presentacion
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioMascota, RepositorioMascota>();
+            services.AddSingleton<IRepositorioSignoVital, RepositorioSignoVital>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
