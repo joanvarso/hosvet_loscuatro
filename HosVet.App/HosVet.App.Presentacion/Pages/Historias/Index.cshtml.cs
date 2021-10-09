@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using HosVet.App.Persistencia;
+using HosVet.App.Dominio;
 
 namespace HosVet.App.Presentacion.Pages.Historias
 {
