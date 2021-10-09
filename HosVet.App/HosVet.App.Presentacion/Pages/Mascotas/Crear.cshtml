@@ -1,0 +1,52 @@
+﻿@page
+@model HosVet.App.Presentacion.Pages.Historias.CrearModel
+@{
+}
+<h1 style=" text-align: center">Administrar Registro de Mascotas</h1>
+<h2>Formulario Para Crear una Nueva Mascota</h2>
+
+<form method="post">
+  <div id="firs-group">
+    <div class="form-group">
+    <label asp-for="mascota.Nombre">Nombre</label>
+    <input asp-for="mascota.Nombre" type="text" class="form-control" placeholder="*Escriba su(s) Nombre(s)*">
+  </div>
+
+  <div class="form-group">
+    <label asp-for="mascota.Direccion">Dirección</label>
+    <input asp-for="mascota.Direccion" type="text" class="form-control" placeholder="*Escriba su Dirección*">
+  </div>
+
+  <div class="form-group">
+    <label asp-for="mascota.Ciudad">Ciudad</label>
+    <input asp-for="mascota.Ciudad" type="text" class="form-control" placeholder="*Escriba la Ciudad de Residencia*">
+  </div>
+
+  <div class="form-group">
+    <label asp-for="mascota.Latitud">Latitud</label>
+    <input asp-for="mascota.Latitud" type="text" class="form-control" placeholder="*Escriba su Latitud geocéntrica*">
+  </div>
+  </div>
+  <div class="form-group">
+    <label asp-for="mascota.Longitud">Longitud</label>
+    <input asp-for="mascota.Longitud" type="text" class="form-control" placeholder="*Escriba su Longitud geocéntrica*">
+  </div>
+
+  <div class="form-group">
+    <label asp-for="mascota.TipoMascota">Tipo de Mascota</label>
+    <input asp-for="mascota.TipoMascota" type="text" class="form-control" placeholder="*Escriba si es Perro, Gato u Otro*">
+  </div>
+
+  <div class="form-group">
+    <label asp-for="mascota.Raza">Raza</label>
+    <input asp-for="mascota.Raza" type="text" class="form-control" placeholder="*Escriba la raza de Mascota*">
+  </div>
+
+  <div class="form-group">
+    <label asp-for="mascota.Peso">Peso</label>
+    <input asp-for="mascota.Peso" type="text" class="form-control" placeholder="*Escriba el peso de la mascota*">
+  </div>
+
+    <button type="submit" class="btn btn-success">Crear Mascota</button>
+
+</form>
