@@ -9,8 +9,15 @@ namespace HosVet.App.Presentacion.Pages.Historias
 {
     public class IndexModel : PageModel
     {
+      private readonly IRepositorioHistoria _repositorioHistoria;
+      public IEnumerable<Historia> Historias {get; set;}
+      public IndexModel (IRepositorioHistoria _repositorioHistoria)
+      {
+          this._repositorioHistoria = _repositorioHistoria;
+      }
         public void OnGet()
         {
+          Historias = _repositorioHistoria.ObtenerTodasLasHistorias();
         }
     }
 }
