@@ -6,12 +6,12 @@ namespace HosVet.App.Persistencia
 {
     public class RepositorioMascota : IRepositorioMascota
     {    
-      private readonly DbConnection _dbConnection;  
-      public RepositorioMascota(DbConnection _dbConnection)
+      private readonly DbConnection _dbConnection = new DbConnection();  
+      /*public RepositorioMascota(DbConnection _dbConnection)
         {
           //Conexión a la base de datos
             _dbConnection = _dbConnection;
-        }
+        }*/
 
          IEnumerable<Mascota> IRepositorioMascota.ObtenerTodasLasMascota (){
 
@@ -70,23 +70,29 @@ namespace HosVet.App.Persistencia
         
          }
 
-         MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){
-
-           var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == idMascota);
-           if(mascotaEncontrada != null){
-             var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinarios.Min(mv => mv.CantidadPacientes);
-             if(medicoVeterinarioEncontrado != null ){
-               //mascotaEncontrada.MedicoVeterinario = medicoVeterinarioEncontrado;
-               mascotaEncontrada.MedicoVeterinario = null;
-               _dbConnection.SaveChanges();
-             }
-             //return medicoVeterinarioEncontrado;
-             return null;           
-           }
-           return null;
-           
-         }
-
-
+    MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario)
+    {
+      throw new System.NotImplementedException();
     }
+
+    /*
+             MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){
+
+               var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+               if(mascotaEncontrada != null){
+                 var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinarios.Min(mv => mv.CantidadPacientes);
+                 if(medicoVeterinarioEncontrado != null ){
+                   //mascotaEncontrada.MedicoVeterinario = medicoVeterinarioEncontrado;
+                   mascotaEncontrada.MedicoVeterinario = null;
+                   _dbConnection.SaveChanges();
+                 }
+                 //return medicoVeterinarioEncontrado;
+                 return null;           
+               }
+               return null;
+
+             }*/
+
+
+  }
 }
