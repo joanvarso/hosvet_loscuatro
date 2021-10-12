@@ -18,8 +18,21 @@ namespace HosVet.App.Presentacion.Pages.Mascotas
       {
           this._repositorioMascota = _repositorioMascota;
       }
-        public void OnGet()
+        public IActionResult OnGet(int idMascota)
         {
+          mascota = _repositorioMascota.ObtenerMascota(idMascota);
+          if (mascota == null){
+            return NotFound();
+          }else{
+            return Page();
+          }
+
+        }
+
+        public IActionResult OnPost(Mascota mascota){
+          _repositorioMascota.ActualizarMascota(mascota);
+          return RedirectToPage("Index");
+
         }
     }
 }
