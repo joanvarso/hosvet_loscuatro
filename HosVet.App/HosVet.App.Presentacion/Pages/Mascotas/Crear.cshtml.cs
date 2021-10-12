@@ -11,7 +11,8 @@ using HosVet.App.Persistencia;
 namespace HosVet.App.Presentacion.Pages.Historias
 {
     public class CrearModel : PageModel
-    {private readonly IRepositorioMascota _repositorioMascota;
+    {
+      private readonly IRepositorioMascota _repositorioMascota;
       public Mascota mascota {get; set;}
       public CrearModel (IRepositorioMascota _repositorioMascota)
       {
