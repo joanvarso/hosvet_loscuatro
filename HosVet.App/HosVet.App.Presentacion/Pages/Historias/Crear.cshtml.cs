@@ -22,11 +22,12 @@ namespace HosVet.App.Presentacion.Pages.Historias
         {
           //mascota = new Mascota();
         }
+        /*
         public IActionResult OnPost(Mascota mascota)
         {
-          //_repositorioMascota.AgregarMascota(mascota);
-          //return RedirectToPage("Index");
+          _repositorioMascota.AgregarMascota(mascota);
+          return RedirectToPage("Index");
           
-        }
+        }*/
     }
 }
