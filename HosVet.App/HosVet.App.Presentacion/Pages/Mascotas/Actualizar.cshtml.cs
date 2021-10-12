@@ -10,11 +10,10 @@ using HosVet.App.Persistencia;
 
 namespace HosVet.App.Presentacion.Pages.Mascotas
 {
-  private readonly IRepositorioMascota _repositorioMascota;
-  public Mascota mascota {get; set; }
     public class ActualizarModel : PageModel
     {
-
+        private readonly IRepositorioMascota _repositorioMascota;
+        public Mascota mascota {get; set; }
       public ActualizarModel (IRepositorioMascota _repositorioMascota)
       {
           this._repositorioMascota = _repositorioMascota;
