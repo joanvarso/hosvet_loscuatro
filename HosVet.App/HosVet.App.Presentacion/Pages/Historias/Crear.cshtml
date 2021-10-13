@@ -1,4 +1,39 @@
 ﻿@page
+@using HosVet.App.Dominio
+@using HosVet.App.Persistencia
 @model HosVet.App.Presentacion.Pages.Historias.CrearModel
 @{
 }
+
+<h1 style=" text-align: center">Administrar Historias de Mascotas</h1>
+<h2>Formulario Para Crear una Nueva Historia</h2>
+<br><br>
+
+<form method="post">
+  <div id="first-group">
+    <div class="form-group">
+      <div class="form-group">
+      <label asp-for="mascota.Id">Id</label>
+      <input asp-for="mascota.Id" type="text" class="form-control" readonly>
+    </div>
+
+      <label asp-for="historia.Diagnostico">Diagnostico</label>
+      <input asp-for="historia.Diagnostico" type="text" class="form-control" placeholder="*Escriba el diagnóstico de la historia*">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="historia.Entorno">Entorno</label>
+      <input asp-for="historia.Entorno" type="text" class="form-control" placeholder="*Escriba el Entorno de la historia*">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="historia.Sugerencias">Sugerencias</label>
+      <input asp-for="historia.Sugerencias" type="text" class="form-control" placeholder="*Escriba la Ciudad de Residencia*">
+    </div>
+  </div>
+
+  <div class=" p-5 text-center">
+    <button type="submit" class="btn btn-success">Crear Mascota</button>
+    <a asp-page="/Mascotas/Index" class="btn btn-secondary">Volver</a>
+  </div>
+</form>

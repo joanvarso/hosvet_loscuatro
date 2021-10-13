@@ -14,20 +14,21 @@ namespace HosVet.App.Presentacion.Pages.Historias
     {
       private readonly IRepositorioHistoria _repositorioHistoria;
       public Historia historia {get; set;}
+      public Mascota mascota {get; set;}
       public CrearModel (IRepositorioHistoria _repositorioHistoria)
       {
         this._repositorioHistoria = _repositorioHistoria;
       }
         public void OnGet()
         {
-          //mascota = new Mascota();
+          historia = new Historia();
         }
-        /*
-        public IActionResult OnPost(Mascota mascota)
+        
+        public IActionResult OnPost(Historia historia)
         {
-          _repositorioMascota.AgregarMascota(mascota);
+          _repositorioMascota.AgregarHistoria(historia);
           return RedirectToPage("Index");
           
-        }*/
+        }
     }
 }
