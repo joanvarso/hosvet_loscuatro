@@ -3,6 +3,15 @@
 @{
 }
 
+<script>
+  function testEventHandler(){
+    //var dialogoConfirmacion = confirm("");
+    alert("Se ha agregado satisfactoriamente el registro de la Nueva Mascotas");
+  }
+
+
+</script>
+
 <style>
 #first-group {
   float: left;
@@ -78,7 +87,7 @@
   </div>
 
   <div class=" p-5 text-center">
-    <button type="submit" class="btn btn-success">Actualizar Mascota</button>
+    <button type="submit" class="btn btn-success" onclick="testEventHandler()">Actualizar Mascota</button>
     <a asp-page="/Mascotas/Index" class="btn btn-secondary">Volver</a>
   </div>
 </form>
