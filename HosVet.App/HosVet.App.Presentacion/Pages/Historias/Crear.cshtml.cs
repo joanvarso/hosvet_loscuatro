@@ -7,25 +7,27 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using HosVet.App.Dominio;
 using HosVet.App.Persistencia;
 
-namespace HosVet.App.Presentacion.Pages.Mascotas
+
+namespace HosVet.App.Presentacion.Pages.Historias
 {
     public class CrearModel : PageModel
     {
-      private readonly IRepositorioMascota _repositorioMascota;
-      public Mascota mascota {get; set;}
-      public CrearModel (IRepositorioMascota _repositorioMascota)
+      private readonly IRepositorioHistoria _repositorioHistoria;
+      public Historia historia {get; set;}
+      public CrearModel (IRepositorioHistoria _repositorioHistoria)
       {
-        this._repositorioMascota = _repositorioMascota;
+        this._repositorioHistoria = _repositorioHistoria;
       }
         public void OnGet()
         {
-          mascota = new Mascota();
+          //mascota = new Mascota();
         }
+        /*
         public IActionResult OnPost(Mascota mascota)
         {
           _repositorioMascota.AgregarMascota(mascota);
           return RedirectToPage("Index");
           
-        }
+        }*/
     }
 }

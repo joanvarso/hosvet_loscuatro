@@ -74,3 +74,8 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Index.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Historias\Index.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Crear.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Auxiliares\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Auxiliares\NuevoAuxiliar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Eliminar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Actualizar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Historias\Crear.cshtml.g.cs

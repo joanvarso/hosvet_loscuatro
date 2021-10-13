@@ -1,5 +1,5 @@
 ﻿@page
-@model HosVet.App.Presentacion.Pages.Historias.CrearModel
+@model HosVet.App.Presentacion.Pages.Mascotas.CrearModel
 @{
 }
 <style>
@@ -19,6 +19,7 @@
 
 <h1 style=" text-align: center">Administrar Registro de Mascotas</h1>
 <h2>Formulario Para Crear una Nueva Mascota</h2>
+<br><br>
 
 <form method="post">
   <div id="first-group">
@@ -67,5 +68,6 @@
 
   <div class=" p-5 text-center">
     <button type="submit" class="btn btn-success">Crear Mascota</button>
+    <a asp-page="/Mascotas/Index" class="btn btn-secondary">Volver</a>
   </div>
 </form>

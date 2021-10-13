@@ -26,15 +26,15 @@ namespace HosVet.App.Dominio
     // Peso de la mascota
     public int Peso {get;set;}
     //Medico asignado permanente para la mascota
-    //public MedicoVeterinario MedicoVeterinario {get; set;}
+    public MedicoVeterinario MedicoVeterinario {get; set;}
     //Auxiliar asignado temporalmente y rotatorio para la mascota
-    //public AuxiliarVeterinario AuxiliarVeterinario {get; set;}
+    public AuxiliarVeterinario AuxiliarVeterinario {get; set;}
     //Historia clinica registrada para la mascota
-    //public Historia Historia { get; set; }
+    public Historia Historia { get; set; }
     //Propietario de la Mascota
-    //public PropietarioDesignado PropietarioDesignado { get; set; }
+    public PropietarioDesignado PropietarioDesignado { get; set; }
     //Signos Vitales de la mascotas registrados.
-    //public System.Collections.Generic.List<SignoVital> SignosVitales { get; set; }
+    public System.Collections.Generic.List<SignoVital> SignosVitales { get; set; }
     
     } 
 }
