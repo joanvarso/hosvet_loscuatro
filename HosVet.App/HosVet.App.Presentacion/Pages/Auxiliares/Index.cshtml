@@ -3,28 +3,39 @@
 @model HosVet.App.Presentacion.Pages.Auxiliares.IndexModel
 @{
 }
-<h1>Auxiliares de veterinaria</h1><br>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Nombre</th>
-            <th scope="col">Apellidos</th>
-            <th scope="col">Numero de telefono</th>
-            <th scope="col">Genero</th>
-            <th scope="col">Tarjeta profesional</th>
-            <th scope="col">Horas Laborales</th>
-        </tr>
-    </thead>
-    @foreach (var av in @Model.auxiliarVeterinario)
-    {
-        <tr>
-            <td>@av.Nombre</td>
-            <td>@av.Apellidos</td>
-            <td>@av.NumeroTelefono</td>
-            <td>@av.Genero</td>
-            <td>@av.TarjetaProfesional</td>
-            <td>@av.HotasLaborales</td>
-        </tr>
-    }
-</table>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lista de Auxiliares</title>
+    </head>
+    <body>
+        <ul class="menu">
+            <li><a href="/Auxiliares/Index">Lista de auxiliares</a></li>
+            <li><a href="/Auxiliares/NuevoAuxiliar">Nuevo auxiliar</a></li>
+        </ul>
+        <h1>Auxiliares de veterinaria</h1><br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Numero de telefono</th>
+                    <th scope="col">Genero</th>
+                    <th scope="col">Tarjeta profesional</th>
+                    <th scope="col">Horas Laborales</th>
+                </tr>
+            </thead>
+            @foreach (var av in @Model.auxiliarVeterinario)
+            {
+                <tr>
+                    <td>@av.Nombre</td>
+                    <td>@av.Apellidos</td>
+                    <td>@av.NumeroTelefono</td>
+                    <td>@av.Genero</td>
+                    <td>@av.TarjetaProfesional</td>
+                    <td>@av.HotasLaborales</td>
+                </tr>
+            }
+        </table>
+    </body>
+</html>
