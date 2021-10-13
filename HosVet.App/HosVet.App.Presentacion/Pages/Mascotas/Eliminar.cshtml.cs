@@ -8,18 +8,18 @@ using HosVet.App.Dominio;
 using HosVet.App.Persistencia;
 namespace HosVet.App.Presentacion.Pages.Mascotas
 {
-  private readonly IRepositorioMascota _repositorioMascota;
-  public Mascota mascota;
-
     public class EliminarModel : PageModel
     {
+        private readonly IRepositorioMascota _repositorioMascota;
+        public Mascota mascota;
       public EliminarModel(IRepositorioMascota _repositorioMascota)
       {
           this._repositorioMascota = _repositorioMascota;
       }
-        public void OnGet(int id)
+        public IActionResult OnGet(int id)
         {
-          mascota = _repositorioMascota.BorrarMascota(id);
+          _repositorioMascota.BorrarMascota(id);
+          return RedirectToPage("Index");
         }
     }
 }
