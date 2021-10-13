@@ -33,9 +33,21 @@ namespace HosVet.App.Persistencia
          Mascota IRepositorioMascota.ActualizarMascota(Mascota mascota){
 
            //Buscando Mascota a actualizar
-           var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == mascota.Id);
            
+          //System.Console.WriteLine("Mascota esta nula?? ");
+          //System.Console.WriteLine(mascota == null);
+          //System.Console.WriteLine(mascota.Id == 0);
+          //System.Console.WriteLine(mascota.Nombre == "Taras");
+          var mascotaEncontrada = _dbConnection.Mascotas.Find(mascota.Id);
+           //var mascotaEncontrada = _dbConnection.Mascotas.FirstOrDefault(m => m.Id == mascota.Id);
+           //System.Console.WriteLine("MascotaEncontrada esta nula?? ");
+           //System.Console.WriteLine(mascotaEncontrada == null);
+           
+           //System.Console.WriteLine(mascotaEncontrada.Nombre = mascota.Nombre);
+           
+
            if(mascotaEncontrada != null){
+             //System.Console.WriteLine("\nLa mascota encontrada no esta nula y se va actualizar");
 
              mascotaEncontrada.Nombre = mascota.Nombre;
              mascotaEncontrada.Direccion = mascota.Direccion;

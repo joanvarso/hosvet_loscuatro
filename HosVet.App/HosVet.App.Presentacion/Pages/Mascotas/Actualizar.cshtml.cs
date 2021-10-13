@@ -18,11 +18,14 @@ namespace HosVet.App.Presentacion.Pages.Mascotas
       {
           this._repositorioMascota = _repositorioMascota;
       }
-        public IActionResult OnGet(int idMascota)
+        public IActionResult OnGet(int id)
         {
-          mascota = _repositorioMascota.ObtenerMascota(idMascota);
+          //System.Console.WriteLine(""+id);
+          mascota = _repositorioMascota.ObtenerMascota(id);
+          //System.Console.WriteLine("OnGet: "+mascota.Nombre);
           if (mascota == null){
             return NotFound();
+            //return null;
           }else{
             return Page();
           }
@@ -30,6 +33,7 @@ namespace HosVet.App.Presentacion.Pages.Mascotas
         }
 
         public IActionResult OnPost(Mascota mascota){
+            //System.Console.WriteLine("OnPost: "+ mascota.Id + "\n" + mascota.Nombre);
           _repositorioMascota.ActualizarMascota(mascota);
           return RedirectToPage("Index");
 
