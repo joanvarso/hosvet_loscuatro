@@ -15,7 +15,7 @@ namespace HosVet.App.Presentacion.Pages.Mascotas
       public Mascota mascota {get; set; }
       public SignoVital signoVital {get; set; }
 
-      public SignovitalModel (IRepositorioMascota mascota)
+      public SignovitalModel (IRepositorioMascota _repositorioMascota)
       {
         this._repositorioMascota = _repositorioMascota;
       }
