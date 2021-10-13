@@ -3,6 +3,20 @@
 @{
 }
 
+<style>
+#first-group {
+  float: left;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+}
+#second-group {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+</style>
+
 <h1 style=" text-align: center">Administrar Registro de Mascotas</h1>
 <h2>Formulario Para Actualizar datos de una Mascota</h2>
 <br><br>
@@ -55,10 +69,17 @@
       <label asp-for="mascota.Peso">Peso</label>
       <input asp-for="mascota.Peso" type="text" class="form-control" >
     </div>
+
+    <div class="form-group">
+      <br><br><br>
+      <input type="hidden">
+    </div>
+
   </div>
 
   <div class=" p-5 text-center">
     <button type="submit" class="btn btn-success">Actualizar Mascota</button>
+    <a asp-page="/Mascotas/Index" class="btn btn-secondary">Volver</a>
     <a asp-page="/Mascotas/Index" class="btn btn-secondary">Volver</a>
   </div>
 </form>
