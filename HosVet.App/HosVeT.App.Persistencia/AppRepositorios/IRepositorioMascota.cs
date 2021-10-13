@@ -15,6 +15,8 @@ namespace HosVet.App.Persistencia
          void BorrarMascota (int idMascota);
          Mascota ObtenerMascota (int idMascota);
          MedicoVeterinario AsignarMedico(int idMascota, int idMedicoVeterinario);
+         void AgregarSignoVital(int IdMascota, SignoVital signoVital);
+
 
     }
 }

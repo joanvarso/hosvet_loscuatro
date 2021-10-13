@@ -87,6 +87,42 @@ namespace HosVet.App.Persistencia
       throw new System.NotImplementedException();
     }
 
+    void IRepositorioMascota.AgregarSignoVital(int IdMascota, SignoVital signoVital)
+    {
+      //Buscando Mascota para agregar signo vital
+      var mascota = _dbConnection.Mascotas.Find(IdMascota);
+      if(mascota != null)
+      {
+        if(mascota.SignosVitales != null)
+        {
+          //Agregando Signo Vital si no está vacío
+          mascota.SignosVitales.Add(signoVital);
+        }else
+        {
+          //Agregando Signo Vital si está vacío
+          mascota.SignosVitales = new List<SignoVital>();
+          mascota.SignosVitales.Add(signoVital);
+        }
+      }
+
+      //Actualizando Datos de la entidad Mascota
+      var mascotaEncontrada = _dbConnection.Mascotas.Find(mascota.Id);
+           if(mascotaEncontrada != null){
+
+             mascotaEncontrada.Nombre = mascota.Nombre;
+             mascotaEncontrada.Direccion = mascota.Direccion;
+             mascotaEncontrada.Ciudad = mascota.Ciudad;
+             mascotaEncontrada.Latitud = mascota.Latitud;
+             mascotaEncontrada.Longitud = mascota.Longitud;
+             mascotaEncontrada.TipoMascota = mascota.TipoMascota;
+             mascotaEncontrada.Raza = mascota.Raza;
+             mascotaEncontrada.Peso = mascota.Peso;
+             //mascotaEncontrada.SignosVitales = mascota.SignosVitales;
+             _dbConnection.SaveChanges();
+
+           }
+    }
+
     /*
              MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){
 

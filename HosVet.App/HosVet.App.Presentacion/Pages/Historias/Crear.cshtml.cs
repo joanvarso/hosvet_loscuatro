@@ -26,7 +26,7 @@ namespace HosVet.App.Presentacion.Pages.Historias
         
         public IActionResult OnPost(Historia historia)
         {
-          _repositorioMascota.AgregarHistoria(historia);
+          _repositorioHistoria.AgregarHistoria(historia);
           return RedirectToPage("Index");
           
         }
