@@ -7,3 +7,13 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.csproj.CoreCompileInputs.cache
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.dll
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\bin\Debug\netstandard2.0\HosVeT.App.Dominio.deps.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\bin\Debug\netstandard2.0\HosVeT.App.Dominio.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\bin\Debug\netstandard2.0\HosVeT.App.Dominio.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.csproj.AssemblyReference.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.AssemblyInfoInputs.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.AssemblyInfo.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.csproj.CoreCompileInputs.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Dominio\obj\Debug\netstandard2.0\HosVeT.App.Dominio.pdb

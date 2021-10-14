@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YjYGJdxaww7oie71lLeaXjtMF6KXy4AiRhM/I57VUYpd0Cq5Ns6OEqbkJEGXn14bg/hS8tdHEn2zktf37IFt7w==",
+  "dgSpecHash": "xvN7jRBQB+AtzK4b21+8R1G1zlf8hgIMO3/+XRz7t25ZC3REmDC/5KgibeI1t7Z2EsopqaAhlGE58+0JYmujMA==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj",
+  "projectFilePath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\estef\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\estef\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

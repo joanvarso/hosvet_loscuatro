@@ -10,3 +10,16 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.csproj.CopyComplete
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.dll
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVeT.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Persistencia.deps.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Persistencia.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Persistencia.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Dominio.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\bin\Debug\netstandard2.1\HosVeT.App.Dominio.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.csproj.AssemblyReference.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.AssemblyInfoInputs.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.AssemblyInfo.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.csproj.CopyComplete
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Persistencia\obj\Debug\netstandard2.1\HosVeT.App.Persistencia.pdb

@@ -6,13 +6,8 @@ namespace HosVet.App.Persistencia
 {
     public class RepositorioMedicoVeterinario : IRepositorioMedicoVeterinario
     {
-        private readonly DbConnection _dbConnection;  
-        public RepositorioMedicoVeterinario(DbConnection dbConnection)
-        {
-            //Conexión a la base de datos
-            _dbConnection = dbConnection;
-        }
-        public MedicoVeterinario ActualizarMedico(MedicoVeterinario medicoVeterinario)
+        private readonly DbConnection _dbConnection = new DbConnection();  
+        MedicoVeterinario IRepositorioMedicoVeterinario.ActualizarMedico(MedicoVeterinario medicoVeterinario)
         {
             //Buscando medico veterinario a actualizar
             var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinarios.FirstOrDefault(m => m.Id == medicoVeterinario.Id);
@@ -31,7 +26,7 @@ namespace HosVet.App.Persistencia
             }
             return medicoVeterinarioEncontrado;
         }
-        public MedicoVeterinario AgregarMedico(MedicoVeterinario medicoVeterinario)
+        MedicoVeterinario IRepositorioMedicoVeterinario.AgregarMedico(MedicoVeterinario medicoVeterinario)
         {
             //Obtener medicoveterinario añadidos
             var medicoVeterinarioAdicionado = _dbConnection.MedicoVeterinarios.Add(medicoVeterinario);
@@ -40,7 +35,7 @@ namespace HosVet.App.Persistencia
             //retornar medicoveterinario añadido
             return medicoVeterinarioAdicionado.Entity;
         }
-        public void BorrarMedico(int idMedicoVeterinario)
+        void IRepositorioMedicoVeterinario.BorrarMedico(int idMedicoVeterinario)
         {
             //Buscando MedicoVeterinario a eliminar
             var medicoVeterinarioEncontrado = _dbConnection.MedicoVeterinarios.FirstOrDefault(p => p.Id == idMedicoVeterinario);
@@ -51,12 +46,13 @@ namespace HosVet.App.Persistencia
             //guardando cambios en la base de datos
             _dbConnection.SaveChanges();
         }
-        public MedicoVeterinario ObtenerMedico(int idMedicoVeterinario)
+        MedicoVeterinario IRepositorioMedicoVeterinario.ObtenerMedico(int idMedicoVeterinario)
         {
             //buscar y retornar MedicoVeterinario 
-            return _dbConnection.MedicoVeterinarios.FirstOrDefault(p => p.Id == idMedicoVeterinario);
+            var medicoEncontrado = _dbConnection.MedicoVeterinarios.FirstOrDefault(p => p.Id == idMedicoVeterinario);
+            return medicoEncontrado;
         }
-        public IEnumerable<MedicoVeterinario> ObtenerTodasLosMedicos()
+         IEnumerable<MedicoVeterinario> IRepositorioMedicoVeterinario.ObtenerTodasLosMedicos()
         {
             return _dbConnection.MedicoVeterinarios;
         }
