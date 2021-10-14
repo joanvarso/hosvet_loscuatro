@@ -163,3 +163,4 @@ C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentaci
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\Index.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\NuevoVeterinario.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Eliminar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Actualizar.cshtml.g.cs
