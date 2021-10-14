@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj": {}
+    "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj": {
+    "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj",
         "projectName": "HosVeT.App.Dominio",
-        "projectPath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\estef\\.nuget\\packages\\",
-        "outputPath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\obj\\",
+        "projectPath": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\estef\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,34 +63,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj": {
+    "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj",
         "projectName": "HosVeT.App.Persistencia",
-        "projectPath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\estef\\.nuget\\packages\\",
-        "outputPath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\obj\\",
+        "projectPath": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\HosVeT.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\estef\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj": {
-                "projectPath": "C:\\MisionTic2022\\Ciclo 3\\DS 54\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj"
+              "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj": {
+                "projectPath": "D:\\Documents\\UCaldas\\Ciclo 3\\Desarrollo de Software Web\\Proyectos\\hosvet_loscuatro\\HosVet.App\\HosVet.App.Dominio\\HosVeT.App.Dominio.csproj"
               }
             }
           }
@@ -133,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

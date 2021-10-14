@@ -1,4 +1,6 @@
 ﻿@page
+@using HosVet.App.Dominio
+@using HosVet.App.Persistencia
 @model HosVet.App.Presentacion.Pages.SignoVitales.IndexModel
 @{
 }
@@ -21,5 +23,6 @@
       <td>@sv.FechaHora</td>
       <td>@sv.TipoSigno</td>
       <td>@sv.Valor</td>
+      <td><a class="btn btn-dark" asp-route-id="@sv.Id" asp-page="/SignoVitales/Eliminar">Eliminar Signo Vital</a></td>
     </tr>
   }

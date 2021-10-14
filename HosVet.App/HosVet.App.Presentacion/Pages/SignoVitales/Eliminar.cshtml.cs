@@ -4,23 +4,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using HosVet.App.Persistencia;
-using HosVet.App.Dominio;
+using  HosVet.App.Dominio;
+using  HosVet.App.Persistencia;
 
 namespace HosVet.App.Presentacion.Pages.SignoVitales
 {
-    public class IndexModel : PageModel
+    public class EliminarModel : PageModel
     {
       private readonly IRepositorioSignoVital _repositorioSignoVital;
-      public IEnumerable<SignoVital> SignoVitales {get; set;}
-      public IEnumerable<Mascota> mascotas {get; set; }
-      public IndexModel(IRepositorioSignoVital _repositorioSignoVital)
-      {
+      public SignoVital signoVital {get; set; }
+
+      public EliminarModel (IRepositorioSignoVital _repositorioSignoVital){
         this._repositorioSignoVital = _repositorioSignoVital;
       }
-        public void OnGet()
+        public IActionResult OnGet(int id)
         {
-          SignoVitales = _repositorioSignoVital.ObtenerTodosLosSignoVital();
+          _repositorioSignoVital.BorrarSignoVital(id);
+          return RedirectToPage("Index");
+
         }
     }
 }
