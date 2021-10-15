@@ -123,6 +123,54 @@ namespace HosVet.App.Persistencia
            }
     }
 
+Historia IRepositorioMascota.AgregarHistoria(int IdMascota, Historia historia)
+    {
+      //Buscando Mascota para agregar signo vital
+      var mascota = _dbConnection.Mascotas.Find(IdMascota);
+      if(mascota != null)
+      {
+        if(mascota.HistoriaId != null)
+        {
+          //var historia = _dbConnection.Historia.Find(id)
+          //Buscando historia a actualizar
+           var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == historia.Id);
+           
+           if(historiaEncontrada != null){
+             //actualizando atributos de la entidad
+             historiaEncontrada.Diagnostico = historia.Diagnostico;
+             historiaEncontrada.Entorno = historia.Entorno;
+             historiaEncontrada.Sugerencias = historia.Sugerencias;
+             _dbConnection.SaveChanges();
+
+           }
+          //Agregando Signo Vital si no está vacío
+          mascota.HistoriaId = historia.Id;
+        }else
+        {
+          //Agregando Signo Vital si está vacío
+          var historiaAdicionada = _dbConnection.Historias.Add(historia);
+          _dbConnection.SaveChanges();
+        }
+      }
+
+      //Actualizando Datos de la entidad Mascota
+      var mascotaEncontrada = _dbConnection.Mascotas.Find(mascota.Id);
+           if(mascotaEncontrada != null){
+
+             mascotaEncontrada.Nombre = mascota.Nombre;
+             mascotaEncontrada.Direccion = mascota.Direccion;
+             mascotaEncontrada.Ciudad = mascota.Ciudad;
+             mascotaEncontrada.Latitud = mascota.Latitud;
+             mascotaEncontrada.Longitud = mascota.Longitud;
+             mascotaEncontrada.TipoMascota = mascota.TipoMascota;
+             mascotaEncontrada.Raza = mascota.Raza;
+             mascotaEncontrada.Peso = mascota.Peso;
+             //mascotaEncontrada.SignosVitales = mascota.SignosVitales;
+             _dbConnection.SaveChanges();
+
+           }
+    }
+
     /*
              MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){
 
