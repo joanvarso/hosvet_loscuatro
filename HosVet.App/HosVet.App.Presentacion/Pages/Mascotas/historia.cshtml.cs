@@ -8,9 +8,9 @@ using HosVet.App.Dominio;
 using HosVet.App.Persistencia;
 
 
-namespace HosVet.App.Presentacion.Pages.Historias
+namespace HosVet.App.Presentacion.Pages.Mascotas
 {
-    public class CrearModel : PageModel
+    public class historiaModel : PageModel
     {
       private readonly IRepositorioHistoria _repositorioHistoria;
       public Historia historia {get; set;}
@@ -19,13 +19,25 @@ namespace HosVet.App.Presentacion.Pages.Historias
       {
         this._repositorioHistoria = _repositorioHistoria;
       }
-        public void OnGet()
+        /*public void OnGet()
         {
           historia = new Historia();
+        }*/
+        public IActionResult OnGet(int id)
+        {
+          historia = new Historia();
+          mascota = _repositorioMascota.ObtenerMascota(id);
+
+          if (mascota == null){
+            return NotFound();
+          }else{
+            return Page();
+          }
         }
         
-        public IActionResult OnPost(Historia historia)
+        public IActionResult OnPost(int id, Historia historia)
         {
+          mascota.Historia = historia;
           _repositorioHistoria.AgregarHistoria(historia);
           return RedirectToPage("Index");
           

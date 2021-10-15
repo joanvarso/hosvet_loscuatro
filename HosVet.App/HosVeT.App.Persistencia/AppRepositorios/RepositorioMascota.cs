@@ -123,13 +123,14 @@ namespace HosVet.App.Persistencia
            }
     }
 
+/*
 Historia IRepositorioMascota.AgregarHistoria(int IdMascota, Historia historia)
     {
       //Buscando Mascota para agregar signo vital
       var mascota = _dbConnection.Mascotas.Find(IdMascota);
       if(mascota != null)
       {
-        if(mascota.HistoriaId != null)
+        if(mascota.Historia != null)
         {
           //var historia = _dbConnection.Historia.Find(id)
           //Buscando historia a actualizar
@@ -144,13 +145,17 @@ Historia IRepositorioMascota.AgregarHistoria(int IdMascota, Historia historia)
 
            }
           //Agregando Signo Vital si no está vacío
-          mascota.HistoriaId = historia.Id;
+          mascota.Historia = historia;
+
+          return historiaEncontrada;
         }else
         {
-          //Agregando Signo Vital si está vacío
+          //Agregando Historia si está vacío
           var historiaAdicionada = _dbConnection.Historias.Add(historia);
           _dbConnection.SaveChanges();
+          return historiaAdicionada.Entity;
         }
+        
       }
 
       //Actualizando Datos de la entidad Mascota
@@ -169,7 +174,8 @@ Historia IRepositorioMascota.AgregarHistoria(int IdMascota, Historia historia)
              _dbConnection.SaveChanges();
 
            }
-    }
+           return null;
+    }*/
 
     /*
              MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){
