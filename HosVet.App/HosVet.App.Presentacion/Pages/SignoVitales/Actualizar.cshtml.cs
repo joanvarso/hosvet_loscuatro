@@ -23,7 +23,7 @@ namespace HosVet.App.Presentacion.Pages.SignoVitales
         public IActionResult OnGet(int id)
         {
           signoVital = _repositorioSignoVital.ObtenerSignoVital(id);
-          System.Console.WriteLine("OnGet: "+ signoVital.Id + "\n" + signoVital.Valor);
+          //System.Console.WriteLine("OnGet: "+ signoVital.Id + "\n" + signoVital.Valor);
           mascota = _repositorioMascota.ObtenerMascota(id);
           if (signoVital == null || mascota == null){
             return NotFound();
@@ -34,7 +34,7 @@ namespace HosVet.App.Presentacion.Pages.SignoVitales
 
         public IActionResult OnPost(SignoVital signoVital)
         {
-          System.Console.WriteLine("OnPost: "+ signoVital.Id + "\n" + signoVital.Valor);
+          //System.Console.WriteLine("OnPost: "+ signoVital.Id + "\n" + signoVital.Valor);
           _repositorioSignoVital.ActualizarSignoVital(signoVital);
           return RedirectToPage("Index");
 
