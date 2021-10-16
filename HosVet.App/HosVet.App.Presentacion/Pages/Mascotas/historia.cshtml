@@ -11,12 +11,9 @@
 
 <form method="post">
   <div id="first-group">
-    <div class="form-group">
-      <div class="form-group">
-      <label asp-for="mascota.Id">Id</label>
-      <input asp-for="mascota.Id" type="text" class="form-control" readonly>
-    </div>
 
+
+    <div class="form-group">
       <label asp-for="historia.Diagnostico">Diagnostico</label>
       <input asp-for="historia.Diagnostico" type="text" class="form-control" placeholder="*Escriba el diagnóstico de la historia*">
     </div>
@@ -28,8 +25,19 @@
 
     <div class="form-group">
       <label asp-for="historia.Sugerencias">Sugerencias</label>
-      <input asp-for="historia.Sugerencias" type="text" class="form-control" placeholder="*Escriba la Ciudad de Residencia*">
+      <input asp-for="historia.Sugerencias" class="form-control" placeholder="*Escriba la Ciudad de Residencia*">
     </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Id">IdMascota</label>
+      <input asp-for="mascota.Id" type="text" class="form-control" readonly>
+      </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Nombre">Nombre de la mascota</label>
+      <input asp-for="mascota.Nombre" type="text" class="form-control" readonly>
+    </div>
+
   </div>
 
   <div class=" p-5 text-center">

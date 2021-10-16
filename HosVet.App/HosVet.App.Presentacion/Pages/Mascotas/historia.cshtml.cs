@@ -13,11 +13,13 @@ namespace HosVet.App.Presentacion.Pages.Mascotas
     public class historiaModel : PageModel
     {
       private readonly IRepositorioHistoria _repositorioHistoria;
-      public Historia historia {get; set;}
-      public Mascota mascota {get; set;}
-      public CrearModel (IRepositorioHistoria _repositorioHistoria)
+      private readonly IRepositorioMascota _repositorioMascota;
+      public Historia historia {get; set ;}
+      public Mascota mascota {get; set; }
+      public historiaModel (IRepositorioHistoria _repositorioHistoria,IRepositorioMascota _repositorioMascota)
       {
         this._repositorioHistoria = _repositorioHistoria;
+        this._repositorioMascota = _repositorioMascota;
       }
         /*public void OnGet()
         {
@@ -37,6 +39,11 @@ namespace HosVet.App.Presentacion.Pages.Mascotas
         
         public IActionResult OnPost(int id, Historia historia)
         {
+          mascota = _repositorioMascota.ObtenerMascota(id);
+          System.Console.WriteLine("Entidad Mascota "+mascota);
+          System.Console.WriteLine("historia en Mascota "+mascota.Historia);
+          //System.Console.WriteLine("id de la historia en Mascota"+mascota.Historia.Id);
+          System.Console.WriteLine("id de la historia"+historia.Id);
           mascota.Historia = historia;
           _repositorioHistoria.AgregarHistoria(historia);
           return RedirectToPage("Index");

@@ -123,59 +123,32 @@ namespace HosVet.App.Persistencia
            }
     }
 
-/*
-Historia IRepositorioMascota.AgregarHistoria(int IdMascota, Historia historia)
+
+void IRepositorioMascota.AgregarHistoria(int IdMascota, Historia historia)
     {
-      //Buscando Mascota para agregar signo vital
+      RepositorioHistoria repositorioHistoria = new RepositorioHistoria();
+      //Buscando Mascota para agregar historia
       var mascota = _dbConnection.Mascotas.Find(IdMascota);
       if(mascota != null)
       {
-        if(mascota.Historia != null)
+        if(mascota.Historia.Id != 0)
         {
-          //var historia = _dbConnection.Historia.Find(id)
-          //Buscando historia a actualizar
-           var historiaEncontrada = _dbConnection.Historias.FirstOrDefault(h => h.Id == historia.Id);
-           
-           if(historiaEncontrada != null){
-             //actualizando atributos de la entidad
-             historiaEncontrada.Diagnostico = historia.Diagnostico;
-             historiaEncontrada.Entorno = historia.Entorno;
-             historiaEncontrada.Sugerencias = historia.Sugerencias;
-             _dbConnection.SaveChanges();
+          //Actualizar historia en caso de que esté creada
+          
+          //return repositorioHistoria.AgregarHistoria(historia);
+          repositorioHistoria.ActualizarHistoria(historia);
+          mascota.Historia.Id = historia.Id;
 
-           }
-          //Agregando Signo Vital si no está vacío
-          mascota.Historia = historia;
-
-          return historiaEncontrada;
-        }else
+        }
+        else
         {
-          //Agregando Historia si está vacío
-          var historiaAdicionada = _dbConnection.Historias.Add(historia);
-          _dbConnection.SaveChanges();
-          return historiaAdicionada.Entity;
+          repositorioHistoria.AgregarHistoria(historia);
+          mascota.Historia.Id = historia.Id;
         }
         
       }
 
-      //Actualizando Datos de la entidad Mascota
-      var mascotaEncontrada = _dbConnection.Mascotas.Find(mascota.Id);
-           if(mascotaEncontrada != null){
-
-             mascotaEncontrada.Nombre = mascota.Nombre;
-             mascotaEncontrada.Direccion = mascota.Direccion;
-             mascotaEncontrada.Ciudad = mascota.Ciudad;
-             mascotaEncontrada.Latitud = mascota.Latitud;
-             mascotaEncontrada.Longitud = mascota.Longitud;
-             mascotaEncontrada.TipoMascota = mascota.TipoMascota;
-             mascotaEncontrada.Raza = mascota.Raza;
-             mascotaEncontrada.Peso = mascota.Peso;
-             //mascotaEncontrada.SignosVitales = mascota.SignosVitales;
-             _dbConnection.SaveChanges();
-
-           }
-           return null;
-    }*/
+    }
 
     /*
              MedicoVeterinario IRepositorioMascota.AsignarMedico(int idMascota, int idMedicoVeterinario){

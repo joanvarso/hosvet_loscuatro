@@ -76,7 +76,6 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Crear.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Eliminar.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Actualizar.cshtml.g.cs
-D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Historias\Crear.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Signovital.cshtml.g.cs
 C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\appsettings.Development.json
 C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\appsettings.json
@@ -164,3 +163,4 @@ D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuat
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\NuevoVeterinario.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Eliminar.cshtml.g.cs
 D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Actualizar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\historia.cshtml.g.cs
