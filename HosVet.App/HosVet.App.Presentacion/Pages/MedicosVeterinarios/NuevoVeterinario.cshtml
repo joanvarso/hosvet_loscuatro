@@ -1,0 +1,55 @@
+﻿@page
+@model HosVet.App.Presentacion.Pages.MedicosVeterinarios.NuevoVeterinarioModel
+@{
+}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lista de Veterinarios</title>
+    </head>
+    <body>
+        <h1>Administrar medicos veterinarios</h1><br>
+        <ul class="submenu">
+            <li><a href="/MedicosVeterinarios/Index">Lista de Veterinarios</a></li>
+            <li><a href="/MedicosVeterinarios/NuevoVeterinario">Nuevo Veterinario</a></li>
+        </ul>  
+        </p>
+        <h2>Formulario para crear un nuevo medico veterinario</h2>
+        <form method="post">
+            <div class="from-gruop">
+                <label asp-for="medicoVeterinario.Nombre">Nombre</label>
+                <input asp-for="medicoVeterinario.Nombre" class="form-control" required="required">
+            </div> 
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.Apellidos">Apellidos</label>
+                <input asp-for="medicoVeterinario.Apellidos" class="form-control" required="required">
+            </div>
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.NumeroTelefono">Numero de telefono</label>
+                <input asp-for="medicoVeterinario.NumeroTelefono" class="form-control" required="required">
+            </div>
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.Genero">Genero</label>
+                <input asp-for="medicoVeterinario.Genero" class="form-control" required="required">
+            </div>
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.Codigo">Codigo</label>
+                <input asp-for="medicoVeterinario.Codigo" class="form-control" required="required">
+            </div>
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.Especialidad">Especialidad</label>
+                <input asp-for="medicoVeterinario.Especialidad" class="form-control" required="required">
+            </div>
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.RegistroRethus">Registro Rethus</label>
+                <input asp-for="medicoVeterinario.RegistroRethus" class="form-control" required="required">
+            </div>
+            <div class="from-gropu">
+                <label asp-for="medicoVeterinario.CantidadPacientes">Cantidad de pacientes</label>
+                <input asp-for="medicoVeterinario.CantidadPacientes" class="form-control" required="required">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Crear medico veterinario</button>
+        </form>
+    </body>
+</html>

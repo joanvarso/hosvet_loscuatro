@@ -1,0 +1,41 @@
+﻿@page
+@model HospiEnCasa.App.Presentacion.Pages.Mascotas.IndexModel
+@{
+}
+<h1 style=" text-align: center">Administrar Registro de Mascotas</h1>
+<h2>Lista de Mascotas</h2>
+<a class="btn btn-primary" asp-page="../Mascotas/Crear">Agregar Nueva Mascota</a>
+<br><br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Latitud</th>
+      <th scope="col">Longitud</th>
+      <th scope="col">Tipo de Mascota</th>
+      <th scope="col">Raza</th>
+      <th scope="col">Peso</th>
+    </tr>
+  </thead>
+
+  @foreach (var m in @Model.Mascotas)
+  {
+    <tr>
+      <td>@m.Nombre</td>
+      <td>@m.Direccion</td>
+      <td>@m.Ciudad</td>
+      <td>@m.Latitud</td>
+      <td>@m.Longitud</td>
+      <td>@m.TipoMascota</td>
+      <td>@m.Raza</td>
+      <td>@m.Peso</td>
+      <td><a class="btn btn-primary" asp-page="../Mascotas/Signovital" asp-route-id="@m.Id">Registrar Signo Vital</a></td>
+      <td><a class="btn btn-secondary" asp-page="../Mascotas/historia" asp-route-id="@m.Id" >Registrar Historia</a></td>
+      <td><a class="btn btn-dark" asp-page="/Mascotas/Actualizar" asp-route-id="@m.Id">Editar Mascota</a></td>
+      <td><a class="btn btn-dark" asp-route-id="@m.Id" asp-page="/Mascotas/Eliminar">Eliminar Mascota</a></td>
+    </tr>
+  }
+
+</table>

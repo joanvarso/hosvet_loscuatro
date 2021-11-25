@@ -1,0 +1,166 @@
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\appsettings.Development.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\appsettings.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.exe
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.deps.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.runtimeconfig.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.runtimeconfig.dev.json
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\ref\HosVet.App.Presentacion.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.Views.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.Views.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.csproj.AssemblyReference.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.AssemblyInfoInputs.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.AssemblyInfo.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.csproj.CoreCompileInputs.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorAssemblyInfo.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorAssemblyInfo.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\staticwebassets\HosVet.App.Presentacion.StaticWebAssets.Manifest.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\staticwebassets\HosVet.App.Presentacion.StaticWebAssets.xml
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\scopedcss\bundle\HosVet.App.Presentacion.styles.css
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.TagHelpers.input.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.TagHelpers.output.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorCoreGenerate.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorTargetAssemblyInfo.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorTargetAssemblyInfo.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.Views.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\ref\HosVet.App.Presentacion.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.genruntimeconfig.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.csproj.CopyComplete
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Dominio.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Persistencia.dll
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Dominio.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Persistencia.pdb
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Historias\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Crear.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Eliminar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Actualizar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Signovital.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\appsettings.Development.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\appsettings.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.exe
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.deps.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.runtimeconfig.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.runtimeconfig.dev.json
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\ref\HosVet.App.Presentacion.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.Views.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVet.App.Presentacion.Views.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Dominio.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Persistencia.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Dominio.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\bin\Debug\net5.0\HosVeT.App.Persistencia.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.csproj.AssemblyReference.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.AssemblyInfoInputs.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.AssemblyInfo.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.csproj.CoreCompileInputs.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorAssemblyInfo.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorAssemblyInfo.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\staticwebassets\HosVet.App.Presentacion.StaticWebAssets.Manifest.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\staticwebassets\HosVet.App.Presentacion.StaticWebAssets.xml
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\scopedcss\bundle\HosVet.App.Presentacion.styles.css
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.TagHelpers.input.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.TagHelpers.output.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorCoreGenerate.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Historias\Crear.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Historias\Index.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Actualizar.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Crear.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Eliminar.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Index.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\Signovital.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\Index.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\NuevoVeterinario.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Index.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorTargetAssemblyInfo.cache
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.RazorTargetAssemblyInfo.cs
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.Views.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.csproj.CopyComplete
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\ref\HosVet.App.Presentacion.dll
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.pdb
+C:\MisionTic2022\Ciclo 3\DS 54\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\HosVet.App.Presentacion.genruntimeconfig.cache
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\Index.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\MedicosVeterinarios\NuevoVeterinario.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Eliminar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\SignoVitales\Actualizar.cshtml.g.cs
+D:\Documents\UCaldas\Ciclo 3\Desarrollo de Software Web\Proyectos\hosvet_loscuatro\HosVet.App\HosVet.App.Presentacion\obj\Debug\net5.0\Razor\Pages\Mascotas\historia.cshtml.g.cs

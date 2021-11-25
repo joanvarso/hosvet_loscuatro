@@ -1,0 +1,29 @@
+﻿@page
+@using HosVet.App.Dominio
+@using HosVet.App.Persistencia
+@model HosVet.App.Presentacion.Pages.SignoVitales.IndexModel
+@{
+}
+
+<h1 style=" text-align: center">Administrar Signos Vitales de Mascotas</h1>
+<h2>Lista de Signos Vitales</h2>
+<br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Fecha y Hora</th>
+      <th scope="col">Signo</th>
+      <th scope="col">Valor</th>
+    </tr>
+  </thead>
+
+  @foreach (var sv in @Model.SignoVitales)
+  {
+    <tr>
+      <td>@sv.FechaHora</td>
+      <td>@sv.TipoSigno</td>
+      <td>@sv.Valor</td>
+      <td><a class="btn btn-dark" asp-route-id="@sv.Id" asp-page="/SignoVitales/Actualizar">Editar Signo Vital</a></td>
+      <td><a class="btn btn-dark" asp-route-id="@sv.Id" asp-page="/SignoVitales/Eliminar">Eliminar Signo Vital</a></td>
+    </tr>
+  }

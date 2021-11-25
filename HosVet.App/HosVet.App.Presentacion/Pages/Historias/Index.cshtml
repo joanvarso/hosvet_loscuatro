@@ -1,0 +1,25 @@
+﻿@page
+@model HosVet.App.Presentacion.Pages.Historias.IndexModel
+@{
+}
+<h1 style=" text-align: center">Administrar Historia de las Mascotas</h1>
+<h2>Lista de Historias</h2>
+<br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Diagnóstico</th>
+      <th scope="col">Entorno</th>
+      <th scope="col">Sugerencias</th>
+    </tr>
+  </thead>
+
+    @foreach (var h in @Model.Historias)
+  {
+    <tr>
+      <td>@h.Diagnostico</td>
+      <td>@h.Entorno</td>
+      <td><a class="btn btn-primary" asp-page="#">Ver Sugerencias</a></td>
+    </tr>
+  }
+</table>

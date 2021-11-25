@@ -1,0 +1,75 @@
+﻿@page
+@using HosVet.App.Dominio
+@using HosVet.App.Persistencia
+@model HosVet.App.Presentacion.Pages.Mascotas.CrearModel
+@{
+}
+<style>
+#first-group {
+  float: left;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+}
+#second-group {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+</style>
+
+
+<h1 style=" text-align: center">Administrar Registro de Mascotas</h1>
+<h2>Formulario Para Crear una Nueva Mascota</h2>
+<br><br>
+
+<form method="post">
+  <div id="first-group">
+    <div class="form-group">
+      <label asp-for="mascota.Nombre">Nombre</label>
+      <input asp-for="mascota.Nombre" type="text" class="form-control" placeholder="*Escriba su(s) Nombre(s)*" required= "required">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Direccion">Dirección</label>
+      <input asp-for="mascota.Direccion" type="text" class="form-control" placeholder="*Escriba su Dirección*" required= "required">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Ciudad">Ciudad</label>
+      <input asp-for="mascota.Ciudad" type="text" class="form-control" placeholder="*Escriba la Ciudad de Residencia*" required= "required">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Latitud">Latitud</label>
+      <input asp-for="mascota.Latitud" type="text" class="form-control" placeholder="*Escriba su Latitud geocéntrica*" required= "required">
+    </div>
+  </div>
+
+  <div id="second-group">
+    <div class="form-group">
+      <label asp-for="mascota.Longitud">Longitud</label>
+      <input asp-for="mascota.Longitud" type="text" class="form-control" placeholder="*Escriba su Longitud geocéntrica*" required= "required">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.TipoMascota">Tipo de Mascota</label>
+      <input asp-for="mascota.TipoMascota" type="text" class="form-control" placeholder="*Escriba si es Perro, Gato u Otro*" required= "required">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Raza">Raza</label>
+      <input asp-for="mascota.Raza" type="text" class="form-control" placeholder="*Escriba la raza de Mascota*" required= "required">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="mascota.Peso">Peso</label>
+      <input asp-for="mascota.Peso" type="text" class="form-control" placeholder="*Escriba el peso de la mascota*" required= "required">
+    </div>
+  </div>
+
+  <div class=" p-5 text-center">
+    <button type="submit" class="btn btn-success">Crear Mascota</button>
+    <a asp-page="/Mascotas/Index" class="btn btn-secondary">Volver</a>
+  </div>
+</form>
